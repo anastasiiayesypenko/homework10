@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: linear-gradient(to left, #0F2027, #203A43, #2C5364);
+}
+input {
+    font-size: 18px;
+    width: 270px;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+form, .js-form-getAll {
+    display: flex;
+    flex-direction: column;
+}
+button {
+    width: 270px;
+    font-size: 20px;
+    border: 3px solid whitesmoke;
+    background: transparent;
+    color: whitesmoke;
+}
+.js-result {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: aliceblue;
+    width: 270px;
+    word-wrap: break-word;
+    font-size: 20px;
+}
